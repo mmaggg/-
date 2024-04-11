@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap 4 landing page</title>
+	 <!-- add bootstrap css file -->
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Главная</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">О нас</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="#">Фото</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="blog" href="#">Партнеры</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="team" href="#">
+	        Команда</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Контакты</a>
+	      </li>
+	    </ul>
+	    
+	  </div>
+</nav>
+<!-- header -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1>
+  		Нейросеть счетчик "НЕМО" для подсчета рыбы при выращивании УЗВ.
+  		<p>
+			Наш продукт нацелен на модернизацию и совершенствование оборудования, используемого рыбными фермами основанными на технологии УЗВ.Мы предлагаем эффективное цифровое решение для подсчета рыбы при перемещении из одного водоема в другой на основе искусственной нейронной сети. Это позволит сэкономить средства и пространство, автоматизировать подсчет и повысить его точность.</p>
+  	</h1>
+  </div>
+   </div>
+  
+</header>
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">О нас</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/team-5.jpg" class="img-fluid">
+				<span class="text-justify">Рыба Форелька</span>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+			  
+				<h3>Счетчик "НЕМО"</h3>
+				<p>
+					На сегодняшний день в России существует около 4000 предприятий по разведению рыб, 
+					86% из которых небольшие производства. Обычно для подсчета молоди используют громоздкие 
+					и дорогостоящие ультразвуковые установки. К сожалению, владельцы небольших рыбных ферм 
+					не могут позволить себе использование таких систем, поэтому на данный момент для подсчета 
+					рыбы они задействуют наемных работников. Наше устройство позволит автоматизировать подсчет
+					рыбы, что исключит затраты на зарплату работника, а также будет совершать его быстро и точно. 
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+     <h1 class="text-center">Фото</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port13.png" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port1.png" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port6.png" class="img-fluid">
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port3.png" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port11.png" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/electric.png" class="img-fluid">
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/Classic.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port1.png" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/portfolio/port8.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Posts section -->
+<div class="blog" id="blog">
+	<div class="container">
+	<h1 class="text-center">Партнеры</h1>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/polit.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Фонд содействия инновациям</h4>
+						
+					</div>
+					<div class="card-footer">
+						<a href="https://fasie.ru" class="card-link">Перейти</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/images.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					   <h4 class="card-title">РГАУ-МСХА им. К.А.Тимирязева</h4>
+					
+					</div>
+					<div class="card-footer">
+						<a href="https://www.timacad.ru/" class="card-link">Перейти</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/imag2.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">20.35 Университет</h4>
+						
+					</div>
+					<div class="card-footer">
+						<a href="https://www.2035.university/" class="card-link">Перейти</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Team section -->
+<div class="team" id="team">
+	<div class="container">
+	   <h1 class="text-center">Наша команда</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-1.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Мирослава
+				 </div>
+				<span class="text-muted">Гендиректр</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-2.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	 Александр
+				 </div>
+				<span class="text-muted">Программист</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-3.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Анастасия 
+				 </div>
+				<span class="text-muted">Дизайнер</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-4.jpg" class="img-fluid" alt="team">
+				 <div class="des">
+				 	Мария
+				 </div>
+				<span class="text-muted">Веб-разработчик</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Свяжитесь с нами</h1>	
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Ваше имя" name="">
+				   </div>
+				   <div class="form-group">
+				   	 <input type="email" class="form-control form-control-lg" placeholder="Ваша почта" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg">
+				   	 	
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Отправить" name="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+	
+	<footer class="footer mt-auto py-3" style="background:#00008b;">
+	<div class="container">
+		<p class="text-center text-white lead">Сделано &copy; <script type="text/javascript">
+			document.write(new Date().getFullYear());
+		  </script> "ЭКОТЕХПРОГРЕСС"</p>
+	  
+	</div>
+  </footer>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>
